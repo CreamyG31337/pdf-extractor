@@ -1,0 +1,25 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Local source material and generated extraction output
+input/
+output/
+*.pdf
+duct-workpoints.csv
+
+# Graphify local runtime files (do not commit)
+graphify-out/
+
+# Per-machine dev tooling: absolute paths into one person's home directory and
+# uv tool env. Keep them locally; do not publish them.
+.claude/
+.mcp.json
+.vscode/tasks.json
